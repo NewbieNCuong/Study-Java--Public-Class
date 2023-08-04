@@ -9,6 +9,10 @@ public class Bai4 {
         float b = sc.nextFloat();
         System.out.print("Nhap c = ");
         float c = sc.nextFloat();
+        if(a == 0 && b == 0 && c != 0){
+            System.out.println("Phuong trinh vo nghiem");
+            System.exit(0);
+        }
         if(a == b && b == c && a == 0){
             System.out.println("Phuong trinh vo so nghiem!");
             System.exit(0);
