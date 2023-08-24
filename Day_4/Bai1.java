@@ -88,7 +88,7 @@ public class Bai1 {
             a[i] = new Book();
             a[i].nhap();
         }
-        System.out.println("Ma sach   Ten sach            Tac gia        Nha Xuat ban   Nam xuat ban");
+        System.out.printf("%-10s%-20s%-15s%-15s%-10s%n", "Ma sach", "Ten sach", "Tac gia", "Nha Xuat ban", "Nam xuat ban");
         for (Book x : a) {
             x.in();
         }

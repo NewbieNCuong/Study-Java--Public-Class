@@ -37,7 +37,7 @@ public class Bai3 {
             sv[i].nhap();
         }
 
-        System.out.println("maSinhVien   hoten               diemtoan       diemly         diemhoa   DiemTB");
+        System.out.printf("%-13s%-20s%-15s%-15s%-10s%-10s%n", "maSinhVien", "hoten", "diemtoan" , "diemly ","diemhoa", "DiemTB");
         for (SinhVien x : sv) {
             x.xuat();
         }
